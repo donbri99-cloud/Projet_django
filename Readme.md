@@ -10,12 +10,16 @@ git pull origin develop
 git merge arsene
 git push origin develop
 
+git switch arsene
+
 
 ## Pourque Alice reçoit la develop
+git status
 git switch alice
 git pull origin alice
 git fetch origin
 git merge origin/develop
+git status
 git push origin alice
 
 
